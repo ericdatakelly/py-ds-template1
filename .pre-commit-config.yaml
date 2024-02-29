@@ -11,7 +11,9 @@ repos:
     rev: 5.13.2
     hooks:
       - id: isort
-
+        args: ["--profile", "black"]  # Make isort compatible with black
+        additional_dependencies: [black==24.2.0]  # Ensure version compatibility
+        
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
