@@ -1,4 +1,4 @@
-1. Copy these files into a new project folder.  Exclude `.git`
+1. Copy these files into a new project folder.  Exclude `.git`.  (or use this as a repo template in GitHub)
 2. Update all files for the new project (project name, version, dependencies, etc.)
 3. Create virtual environment (`mamba env create -f environment.yaml`) and activate
 4. Install via `flit install -s`
