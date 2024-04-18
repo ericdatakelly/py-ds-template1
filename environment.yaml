@@ -10,3 +10,4 @@ dependencies:
   - pre-commit
   - pytest
   - python>=3.10
+  - python-dotenv
