@@ -1,5 +1,8 @@
 # .gitignore
 
+# Other packages
+TaskWeaver/
+
 # Python
 *.pyc
 *.pyo
@@ -92,3 +95,9 @@ cython_debug/
 # VS Code
 .vscode/
 *.code-workspace
+
+# Mac OS
+.DS_Store
+
+# Log files
+*.log
