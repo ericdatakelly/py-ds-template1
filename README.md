@@ -1,7 +1,7 @@
 1. Copy these files into a new project folder.  Exclude `.git`.  (or use this as a repo template in GitHub)
 2. Update all files for the new project (project name, version, dependencies, etc.)
-3. Create virtual environment (`mamba env create -f environment.yaml`) and activate
-4. Install via `flit install -s`
+3. Create virtual environment (`conda env create -f environment.yaml`) and activate
+4. Install via `pip install -e .`
 5. In VS Code
   - Initialize repo
   - Select Python interpreter (might also need to be in settings.json)
